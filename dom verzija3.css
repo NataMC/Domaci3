@@ -1,0 +1,74 @@
+a {
+	font-family: Tahoma;
+	color: #242424;
+} 
+body {
+	background-color: #F88158
+}
+header {
+	background-image: url(http://www.degriff.com/images/image-header-homepage-1920px.jpg);
+	height: 300px;
+	background-size: cover;
+	font-size: 20px;
+	text-align: center;
+	font-color: #F88158;
+	text-shadow: 2px 2px;
+}
+
+ul {
+	list-style: none;
+}
+h1,
+nav ul li {
+		display: inline-block;
+}
+a {
+	text-decoration: none;
+	margin-right: 10px;
+}
+a:hover {
+	text-decoration:underline;
+
+}
+nav {
+	float: right;
+}
+
+ .label {
+	border: 1px solid #242424;
+	border-radius: 20px;
+	width: 200px;
+	height: 150px;
+	padding: 20px;
+	position: relative;
+	float: left;
+	margin:150px 50px 0;
+	background-color: #B041FF;
+}
+
+img {
+	height: 160px;
+	width: 220px;
+	border-radius: 20px;
+	position: absolute;
+	top: 15px;
+	left: 10px;
+	z-index: 2;
+	
+	
+}
+ #krug1,
+ #krug2,
+ #krug3,
+ #krug4 {
+	width: 70px;
+	height: 70px;
+	background-color: #B041FF;
+	border-radius: 50%;
+	position: absolute;
+	top: -35px;
+	left: 85px;
+	margin: 2px;	
+}
+
+
