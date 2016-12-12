@@ -1,0 +1,51 @@
+body,a {
+		font-family: Tahoma;
+		color: #242424;
+} 
+header {
+	background-color: #F9966B;
+}
+ul {
+	list-style: none;
+}
+h1,
+nav ul li {
+		display: inline-block;
+}
+a {
+	text-decoration: none;
+	margin-right: 10px;
+}
+a:hover {
+	text-decoration:underline;
+}
+nav {
+	float: right;
+}
+ .label1,
+ .label2, 
+ .label3,
+ .label4 {
+	border: 1px solid #242424;
+	border-radius: 5px;
+	width: 200px;
+	height: 150px;
+	padding: 20px;
+	position: relative;
+	float: left;
+	margin:200px 50px 0;
+}
+
+ #krug1,
+ #krug2,
+ #krug3,
+ #krug4 {
+	width: 70px;
+	height: 70px;
+	background-color: #242424;
+	border-radius: 50%;
+	position: absolute;
+	top: -35px;
+	left: 85px;
+	margin: 2px;	
+}
